@@ -5,6 +5,143 @@
 }
 
 /*Styling of the navbar and wepage header*/
+@media screen and (min-width: 768px) {
+  body {
+    font-weight: bolder;
+  }
+
+  .heading {
+    margin-bottom: -100px;
+  }
+
+  .nav-class {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+  }
+
+  .bars {
+    display: none;
+  }
+
+  .fa-arrow-right {
+    background: #23a6f0;
+  }
+
+  .menu,
+  .menu-link {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+  }
+
+  .menu {
+    gap: 50px;
+    width: 100%;
+    padding-right: 15px;
+  }
+
+  .right-menu {
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu-a {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .menu-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 25px;
+    gap: 15px;
+    width: 100%;
+    height: 52px;
+    background: #23a6f0;
+    border-radius: 5px;
+    border: 1px solid #23a6f0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #fff;
+  }
+
+  .heading-2 {
+    display: flex;
+    gap: 17.5px;
+    max-width: 1400px;
+    margin: auto;
+    height: 777px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heading-class {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .heading-home {
+    width: 64%;
+    min-height: 500px;
+  }
+
+  .heading-class-text {
+    text-align: start;
+    width: 75%;
+    height: 10.5vh;
+    font-weight: 800;
+    font-size: 3.5vw;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+  }
+
+  .crood-user-interface {
+    width: 40vw;
+    height: 75vh;
+  }
+
+  .heading-h4-home {
+    text-align: start;
+    width: 90%;
+    height: 90px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    color: #fff;
+  }
+
+  .button-home {
+    display: flex;
+    gap: 10px;
+  }
+
+  .heading-button-1,
+  .heading-button-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 36px;
+    gap: 10px;
+    width: 185px;
+    height: 52px;
+    font-size: 13px;
+    line-height: 22px;
+  }
+}
+
 nav {
   display: flex;
 }
@@ -97,6 +234,98 @@ h4 {
 }
 
 /*Feature Section Styling*/
+@media screen and (min-width: 768px) {
+.feature {
+  max-width: 1000px;
+  margin: auto;
+  padding-bottom: 10%;
+  padding-top: 3%;
+}
+
+.row-cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+
+.card-item {
+  width: 100%;
+  height: 112px;
+}
+
+.flex-row-paragraph {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.card-item-p1 {
+  width: 90%;
+  height: 24px;
+}
+
+.card-item-p2 {
+  width: 90%;
+  height: 48px;
+}
+
+.card-item-p3 {
+  width: 90%;
+  height: 24px;
+}
+
+.card-item-p4 {
+  width: 90%;
+  height: 24px;
+}
+
+.card-item-p5 {
+  width: 90%;
+  height: 24px;
+}
+
+.card-item-p6 {
+  width: 90%;
+  height: 48px;
+}
+
+.text-feature-section {
+  visibility: hidden;
+}
+
+.text-feature-section::after {
+  visibility: visible;
+  content: "Better Strategy";
+  display: flex;
+  justify-content: flex-start;
+}
+
+.vector-card {
+  display: none;
+}
+
+.flex-row-items::after {
+  content: url("../images/usrs.png");
+}
+
+.flex-justify {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  height: 50px;
+}
+
+.feature-button-1 {
+  height: 50px;
+}
+}
+
 .feature {
   max-width: 350px;
   margin: auto;
@@ -201,6 +430,71 @@ h4 {
 /*End of Features Section Styling*/
 
 /*Testimonials' Styling */
+@media screen and (min-width: 768px) {
+  .testimonials {
+    max-width: 1440px;
+    margin: auto;
+    margin-bottom: 100px;
+  }
+
+  .testimonail-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 35px;
+    gap: 30px;
+    width: 744px;
+    height: 362.01px;
+  }
+
+  .testimonials-heading {
+    width: 100%;
+    height: 30px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+  }
+
+  .testimonial-paragraph {
+    width: 470px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #fff;
+    margin-bottom: 80px;
+  }
+
+  .testimonial-text {
+    width: 500px;
+    height: 40px;
+    left: 138.5px;
+    top: 92.01px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 32px;
+  }
+
+  .testimonial-pic {
+    height: 18.3473px;
+    width: 18.3445px;
+    left: 1.8343px;
+    top: 1.8333px;
+    border-radius: 0;
+  }
+
+  .testimonial-author {
+    font-size: 24px;
+    width: 157px;
+    height: 5px;
+    font-weight: 900;
+    letter-spacing: 0.1px;
+  }
+}
+
 .testimonials {
   max-width: 350px;
   margin: auto;
@@ -735,3 +1029,599 @@ h4 {
 }
 
 /*Responsiveness Querries*/
+
+@media screen and (min-width: 768px) {
+  body {
+    font-weight: bolder;
+  }
+
+  .heading {
+    margin-bottom: -100px;
+  }
+
+  .nav-class {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+  }
+
+  .bars {
+    display: none;
+  }
+
+  .fa-arrow-right {
+    background: #23a6f0;
+  }
+
+  .menu,
+  .menu-link {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+  }
+
+  .menu {
+    gap: 50px;
+    width: 100%;
+    padding-right: 15px;
+  }
+
+  .right-menu {
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu-a {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .menu-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 25px;
+    gap: 15px;
+    width: 100%;
+    height: 52px;
+    background: #23a6f0;
+    border-radius: 5px;
+    border: 1px solid #23a6f0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #fff;
+  }
+
+  .heading-2 {
+    display: flex;
+    gap: 17.5px;
+    max-width: 1400px;
+    margin: auto;
+    height: 777px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heading-class {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .heading-home {
+    width: 64%;
+    min-height: 500px;
+  }
+
+  .heading-class-text {
+    text-align: start;
+    width: 75%;
+    height: 10.5vh;
+    font-weight: 800;
+    font-size: 3.5vw;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+  }
+
+  .crood-user-interface {
+    width: 40vw;
+    height: 75vh;
+  }
+
+  .heading-h4-home {
+    text-align: start;
+    width: 90%;
+    height: 90px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    color: #fff;
+  }
+
+  .button-home {
+    display: flex;
+    gap: 10px;
+  }
+
+  .heading-button-1,
+  .heading-button-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 36px;
+    gap: 10px;
+    width: 185px;
+    height: 52px;
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  /* feature */
+  .feature {
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 10%;
+    padding-top: 3%;
+  }
+
+  .row-cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+  }
+
+  .card-item {
+    width: 100%;
+    height: 112px;
+  }
+
+  .flex-row-paragraph {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .card-item-p1 {
+    width: 90%;
+    height: 24px;
+  }
+
+  .card-item-p2 {
+    width: 90%;
+    height: 48px;
+  }
+
+  .card-item-p3 {
+    width: 90%;
+    height: 24px;
+  }
+
+  .card-item-p4 {
+    width: 90%;
+    height: 24px;
+  }
+
+  .card-item-p5 {
+    width: 90%;
+    height: 24px;
+  }
+
+  .card-item-p6 {
+    width: 90%;
+    height: 48px;
+  }
+
+  .text-feature-section {
+    visibility: hidden;
+  }
+
+  .text-feature-section::after {
+    visibility: visible;
+    content: "Better Strategy";
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .vector-card {
+    display: none;
+  }
+
+  .flex-row-items::after {
+    content: url("../images/usrs.png");
+  }
+
+  .flex-justify {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 10px;
+    height: 50px;
+  }
+
+  .feature-button-1 {
+    height: 50px;
+  }
+
+  /* testimonial */
+
+  .testimonials {
+    max-width: 1440px;
+    margin: auto;
+    margin-bottom: 100px;
+  }
+
+  .testimonail-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 35px;
+    gap: 30px;
+    width: 744px;
+    height: 362.01px;
+  }
+
+  .testimonials-heading {
+    width: 100%;
+    height: 30px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+  }
+
+  .testimonial-paragraph {
+    width: 470px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #fff;
+    margin-bottom: 80px;
+  }
+
+  .testimonial-text {
+    width: 500px;
+    height: 40px;
+    left: 138.5px;
+    top: 92.01px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 32px;
+  }
+
+  .testimonial-pic {
+    height: 18.3473px;
+    width: 18.3445px;
+    left: 1.8343px;
+    top: 1.8333px;
+    border-radius: 0;
+  }
+
+  .testimonial-author {
+    font-size: 24px;
+    width: 157px;
+    height: 5px;
+    font-weight: 900;
+    letter-spacing: 0.1px;
+  }
+
+  /* faq */
+  .faq {
+    max-width: 1440px;
+    margin: auto;
+    height: 920px;
+    margin-bottom: 100px;
+    font-weight: bolder;
+  }
+
+  .phone-faq {
+    display: none;
+  }
+
+  .desktop-faq {
+    display: initial;
+  }
+
+  .fa-chevron-right {
+    margin-top: -70px;
+  }
+
+  .text-faq {
+    margin-top: 90px;
+    width: 87px;
+    height: 47px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 57px;
+  }
+
+  .paragraph-faq {
+    width: 470px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 95px;
+  }
+
+  .card-faq {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .card-faq-item {
+    width: 92%;
+    height: 119px;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+  }
+
+  .heading-faq {
+    width: 100%;
+  }
+
+  .heading-5-faq,
+  .heading-6-faq {
+    width: 100%;
+  }
+
+  .heading-5-faq {
+    height: 10px;
+    margin-top: -10px;
+  }
+
+  /* pricing */
+  .pricing {
+    max-width: 900px;
+    margin: auto;
+    height: 1116px;
+    width: 36%;
+    margin-bottom: 100px;
+  }
+
+  .pricing-heading {
+    width: 144px;
+    height: 57px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+  }
+
+  .pricing-paragraph {
+    width: 470px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+  }
+
+  .styling {
+    display: flex;
+    max-height: 655px;
+    margin-top: 60px;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .pricing-style {
+    display: none;
+  }
+
+  .pricing-style-2 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 40px;
+    width: 90%;
+    background: #fff;
+    border: 1px solid #23a6f0;
+    margin-bottom: 30px;
+  }
+
+  .pricing-title-content,
+  .price,
+  .pic-price-1,
+  .pic-price-2 {
+    background: #fff;
+  }
+
+  .pricing-style-11 {
+    background-color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #252b42;
+  }
+
+  .price-button {
+    margin-top: 20px;
+  }
+
+  .price-1 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 40px;
+    gap: 5px;
+    font-weight: 700;
+    width: 95%;
+    height: 665px;
+    border: 1px solid #23a6f0;
+    border-radius: 10px;
+  }
+
+  .pricing-heading-3 {
+    margin-bottom: -5px;
+    margin-top: -1px;
+    text-align: center;
+  }
+
+  .premium {
+    width: 100px;
+    height: 25px;
+  }
+
+  .premium-price {
+    width: 104px;
+    height: 35px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+  }
+
+  .standard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 40px;
+    gap: 1px;
+    width: 92%;
+    height: 705px;
+    align-self: center;
+    font-weight: 700;
+    border: 1px solid #23a6f0;
+  }
+
+  .standard-price-heading {
+    margin-bottom: -1px;
+    margin-top: -50px;
+  }
+
+  .list,
+  .pricing-5-style,
+  .pricing-heading-3,
+  .pricing-title-content,
+  .pricing-title-content-style,
+  .price-button-style,
+  .price-button {
+    width: 109%;
+  }
+
+  /* in-touch */
+  .in-touch {
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 20vw;
+    height: 257px;
+    margin-bottom: 100px;
+  }
+
+  .in-touch-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .form-control {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .in-touch-heading {
+    width: 100%;
+    height: 30px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #fff;
+  }
+
+  .in-touch-paragraph {
+    width: 100%;
+    height: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #fff;
+  }
+
+  input {
+    background: #f9f9f9;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    height: 58px;
+    width: 320px;
+    float: right;
+  }
+
+  .btn-primary {
+    box-sizing: border-box;
+    position: absolute;
+    background: #23a6f0;
+    border: 1px solid #e6e6e6;
+    border-radius: 0 5px 5px 0;
+    height: 62px;
+    width: 117px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1px;
+    margin-left: 210px;
+    color: #fff;
+  }
+
+  ::placeholder {
+    width: 77px;
+    height: 28px;
+    left: 20px;
+    top: calc(50% - 28px / 2);
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #737373;
+  }
+
+  /* footer */
+  .footer-section {
+    max-width: 1454px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 0;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .footer-justify {
+    justify-content: space-evenly;
+  }
+
+  /* last-part */
+  .last-part {
+    padding: 0.5rem;
+  }
+}
