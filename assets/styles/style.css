@@ -667,3 +667,55 @@ h4 {
 }
 /*End of Pricing Section Styling*/
 
+/*Start of footer Styling*/
+.footer-icons {
+  display: flex;
+  gap: 22px;
+}
+
+.footer-section {
+  margin-left: 20%;
+}
+
+.footer-section h3 {
+  width: 171px;
+  height: 32px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #fff;
+}
+
+.first-footer-section {
+  height: 40px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #fff;
+  margin-bottom: 26px;
+}
+
+.footer-section p {
+  height: 24px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #fff;
+}
+
+.last-part {
+  position: absolute;
+  background-color: #fff;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*End of footer Styling*/
+
+
