@@ -1,4 +1,97 @@
+/*represented by clint360*/
 * {
   background: #252b42;
   font-family: Montserrat, sans-serif;
+}
+
+/*Styling of the navbar and wepage header*/
+nav {
+  display: flex;
+}
+
+.heading-class,
+.nav-class {
+  margin-bottom: 40px;
+}
+
+nav .icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+  font-size: 25px;
+  color: #fff;
+}
+
+.menu-heading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #fff;
+}
+
+.heading-class-text {
+  width: 70%;
+  height: 228px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #fff;
+}
+
+.heading-class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h4 {
+  width: 80%;
+  height: 120px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #fff;
+}
+
+.heading-button-1,
+.heading-button-2 {
+  max-width: 97%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 39px;
+  gap: 10px;
+  height: 49px;
+  border-radius: 37px;
+}
+
+.heading-button-1 {
+  background: #23a6f0;
+  border: 1px solid #23a6f0;
+}
+
+.heading-button-2 {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.button-text {
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #fff;
+  top: 10px;
+}
+
+.crood-user-interface {
+  width: 100%;
 }
