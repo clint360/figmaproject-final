@@ -726,3 +726,12 @@ h4 {
   width: 70%;
 }
 /*End of Signature Styling*/
+
+.price-1,
+.in-touch,
+.faq-total,
+.barss {
+  display: none;
+}
+
+/*Responsiveness Querries*/
