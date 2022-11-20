@@ -718,4 +718,11 @@ h4 {
 
 /*End of footer Styling*/
 
-
+/*Signature Styling*/
+.signature p,
+.signature p strong {
+  background-color: #fff;
+  text-align: center;
+  width: 70%;
+}
+/*End of Signature Styling*/
