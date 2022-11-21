@@ -1,10 +1,10 @@
-/*represented by clint360*/
+/* represented by clint360 */ 
 * {
   background: #252b42;
   font-family: Montserrat, sans-serif;
 }
 
-/*Styling of the navbar and wepage header*/
+/* Styling of the navbar and wepage header */
 nav {
   display: flex;
 }
@@ -96,7 +96,7 @@ h4 {
   width: 100%;
 }
 
-/*Feature Section Styling*/
+/* Feature Section Styling */
 .feature {
   max-width: 350px;
   margin: auto;
@@ -198,9 +198,9 @@ h4 {
   color: #fff;
   top: 10px;
 }
-/*End of Features Section Styling*/
+/* End of Features Section Styling */
 
-/*Testimonials' Styling */
+/* Testimonials' Styling */
 .testimonials {
   max-width: 350px;
   margin: auto;
@@ -303,9 +303,9 @@ h4 {
 .rate {
   text-align: center;
 }
-/*Finished the Testimonials Section Styling*/
+/* Finished the Testimonials Section Styling */
 
-/*FAQ Section Styling*/
+/* FAQ Section Styling */
 /* faq */
 .faq {
   max-width: 350px;
@@ -389,9 +389,9 @@ h4 {
   letter-spacing: 0.2px;
   color: #737373;
 }
-/*End of Styling of the FAQ Section*/
+/* End of Styling of the FAQ Section */
 
-/*styling of the Pricing Section */
+/* styling of the Pricing Section */
 .pricing {
   max-width: 375px;
   margin: auto;
@@ -665,9 +665,9 @@ h4 {
   color: #23a6f0;
   margin-top: 35px;
 }
-/*End of Pricing Section Styling*/
+/* End of Pricing Section Styling */
 
-/*Start of footer Styling*/
+/* Start of footer Styling */
 .footer-icons {
   display: flex;
   gap: 22px;
@@ -716,13 +716,13 @@ h4 {
   align-items: center;
 }
 
-/*End of footer Styling*/
+/* End of footer Styling */
 
-/*Signature Styling*/
+/* Signature Styling */
 .signature p,
 .signature p strong {
   background-color: #fff;
   text-align: center;
   width: 70%;
 }
-/*End of Signature Styling*/
+/* End of Signature Styling */
