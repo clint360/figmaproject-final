@@ -1,4 +1,4 @@
-# CV TEMPLATE
+# FIGMA DESIGN
 
 An implemented figma design, implemented with HTML and CSS.
 
