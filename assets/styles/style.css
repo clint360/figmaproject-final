@@ -1013,6 +1013,16 @@ h4 {
 /*End of footer Styling*/
 
 /*Signature Styling*/
+.signature {
+  position: absolute;
+  background-color: #fff;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .signature p,
 .signature p strong {
   background-color: #fff;
@@ -1620,8 +1630,8 @@ h4 {
     justify-content: space-evenly;
   }
 
-  /* last-part */
-  .last-part {
+  /* signature */
+  .signature {
     padding: 0.5rem;
   }
 }
