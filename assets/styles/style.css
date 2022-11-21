@@ -1,10 +1,10 @@
-/*represented by clint360*/
+/* represented by clint360 */
 * {
   background: #252b42;
   font-family: Montserrat, sans-serif;
 }
 
-/*Styling of the navbar and wepage header*/
+/* Styling of the navbar and wepage header */
 @media screen and (min-width: 768px) {
   body {
     font-weight: bolder;
@@ -233,97 +233,9 @@ h4 {
   width: 100%;
 }
 
-/*Feature Section Styling*/
+/* Feature Section Styling */
 @media screen and (min-width: 768px) {
-.feature {
-  max-width: 1000px;
-  margin: auto;
-  padding-bottom: 10%;
-  padding-top: 3%;
-}
-
-.row-cards {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 20px;
-}
-
-.card-item {
-  width: 100%;
-  height: 112px;
-}
-
-.flex-row-paragraph {
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 24px;
-}
-
-.card-item-p1 {
-  width: 90%;
-  height: 24px;
-}
-
-.card-item-p2 {
-  width: 90%;
-  height: 48px;
-}
-
-.card-item-p3 {
-  width: 90%;
-  height: 24px;
-}
-
-.card-item-p4 {
-  width: 90%;
-  height: 24px;
-}
-
-.card-item-p5 {
-  width: 90%;
-  height: 24px;
-}
-
-.card-item-p6 {
-  width: 90%;
-  height: 48px;
-}
-
-.text-feature-section {
-  visibility: hidden;
-}
-
-.text-feature-section::after {
-  visibility: visible;
-  content: "Better Strategy";
-  display: flex;
-  justify-content: flex-start;
-}
-
-.vector-card {
-  display: none;
-}
-
-.flex-row-items::after {
-  content: url("../images/usrs.png");
-}
-
-.flex-justify {
-  width: 100%;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-start;
-}
-
-.buttons {
-  display: flex;
-  gap: 10px;
-  height: 50px;
-}
-
-.feature-button-1 {
-  height: 50px;
-}
+ 
 }
 
 .feature {
@@ -427,9 +339,9 @@ h4 {
   color: #fff;
   top: 10px;
 }
-/*End of Features Section Styling*/
+/* End of Features Section Styling */
 
-/*Testimonials' Styling */
+/* Testimonials' Styling */
 @media screen and (min-width: 768px) {
   .testimonials {
     max-width: 1440px;
@@ -597,9 +509,9 @@ h4 {
 .rate {
   text-align: center;
 }
-/*Finished the Testimonials Section Styling*/
+/* Finished the Testimonials Section Styling */
 
-/*FAQ Section Styling*/
+/* FAQ Section Styling */
 /* faq */
 .faq {
   max-width: 350px;
@@ -683,9 +595,9 @@ h4 {
   letter-spacing: 0.2px;
   color: #737373;
 }
-/*End of Styling of the FAQ Section*/
+/* End of Styling of the FAQ Section */
 
-/*styling of the Pricing Section */
+/* styling of the Pricing Section */
 .pricing {
   max-width: 375px;
   margin: auto;
@@ -959,9 +871,9 @@ h4 {
   color: #23a6f0;
   margin-top: 35px;
 }
-/*End of Pricing Section Styling*/
+/* End of Pricing Section Styling */
 
-/*Start of footer Styling*/
+/* Start of footer Styling */
 .footer-icons {
   display: flex;
   gap: 22px;
@@ -1010,9 +922,9 @@ h4 {
   align-items: center;
 }
 
-/*End of footer Styling*/
+/* End of footer Styling */
 
-/*Signature Styling*/
+/* Signature Styling */
 .signature {
   position: absolute;
   background-color: #fff;
@@ -1029,7 +941,7 @@ h4 {
   text-align: center;
   width: 70%;
 }
-/*End of Signature Styling*/
+/* End of Signature Styling */
 
 .price-1,
 .in-touch,
@@ -1038,7 +950,7 @@ h4 {
   display: none;
 }
 
-/*Responsiveness Querries*/
+/* Responsiveness Querries */
 
 @media screen and (min-width: 768px) {
   body {
