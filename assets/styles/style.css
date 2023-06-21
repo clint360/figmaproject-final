@@ -36,7 +36,7 @@ nav .icons {
 
 .heading-class-text {
   width: 70%;
-  height: 228px;
+  height: auto;
   font-weight: 700;
   font-size: 40px;
   line-height: 57px;
@@ -849,7 +849,7 @@ h4 {
 
   .heading-class-text {
     text-align: start;
-    width: 75%;
+    width: 90%;
     height: auto;
     padding-bottom: 10px;
     font-weight: 800;
