@@ -872,6 +872,7 @@ h4 {
     line-height: 40px;
     letter-spacing: 0.2px;
     color: #fff;
+    margin-top: -100px;
   }
 
   .button-home {
