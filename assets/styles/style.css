@@ -850,7 +850,8 @@ h4 {
   .heading-class-text {
     text-align: start;
     width: 75%;
-    height: 10.5vh;
+    height: auto;
+    padding-bottom: 10px;
     font-weight: 800;
     font-size: 3.5vw;
     line-height: 80px;
@@ -865,7 +866,7 @@ h4 {
   .heading-h4-home {
     text-align: start;
     width: 90%;
-    height: 90px;
+    height: auto; 
     font-weight: 500;
     font-size: 20px;
     line-height: 40px;
