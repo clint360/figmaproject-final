@@ -1,5 +1,5 @@
 /* represented by clint360 */
-@import ""https://fonts.googleapis.com/css?family=Montserrat"";
+@import ("https://fonts.googleapis.com/css?family=Montserrat");
 
 * {
   background: #252b42;
@@ -755,6 +755,7 @@ h4 {
 /* Responsiveness Querries */
 
 @media screen and (min-width: 768px) {
+  
   body {
     font-weight: bolder;
     padding: 0 30px;
@@ -866,7 +867,7 @@ h4 {
   .heading-h4-home {
     text-align: start;
     width: 90%;
-    height: auto; 
+    height: auto;
     font-weight: 500;
     font-size: 20px;
     line-height: 40px;
